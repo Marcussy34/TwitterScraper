@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Twitter Profile Scraper Integration Guide
 
 This guide will help you integrate the Twitter Profile Scraper component into your Next.js project.
@@ -35,6 +34,9 @@ OPENAI_API_KEY=your_openai_key_here
   ├── PersonalityCard.js
 /lib
   ├── twitterScraper.js
+/pages
+  ├── api
+    ├── twitter.js    # API endpoint for Twitter analysis
 /utils
   ├── analyzePersonality.js
 ```
@@ -332,7 +334,3 @@ The analysis will return a JSON object in this format:
 ```
 
 This minimal integration provides just the analysis functionality without the UI components, making it easier to integrate into existing projects or use with different frontend frameworks.
-=======
-# TwitterScraper
-for testing purposes
->>>>>>> e189166c0bd88622f132aa2eef7e9b0495839e8d
